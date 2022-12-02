@@ -1,0 +1,41 @@
+1. npm install eslint --save-dev // agar menulis kode secara konsisten
+    1.1     npx eslint --init
+            How would you like to use ESLint? -> To check, find problems, and enforce code style.
+            What type of modules does your project use? -> CommonJS (require/exports).
+            Which framework did you use? -> None of these. 
+            Does your project use TypeScript? -> N.
+            Where does your code run? -> Node (pilih menggunakan spasi).
+            How would you like to define a style for your project? -> Use a popular style guide.
+            Which style guide do you want to follow? -> (Anda bebas memilih, sebagai contoh pilih AirBnB).
+            What format do you want your config file to be in? -> JSON.
+
+            Would you like to …… (seluruh pertanyaan selanjutnya) -> Y.
+2. Berikut daftar package yang akan digunakan:
+@babel/core
+@babel/preset-env
+babel-loader
+css-loader
+html-webpack-plugin
+style-loader
+webpack
+webpack-cli
+webpack-dev-server
+webpack-merge
+
+npm install @babel/core @babel/preset-env babel-loader css-loader html-webpack-plugin style-loader webpack webpack-cli webpack-dev-server webpack-merge --save-dev
+
+3. webpack configuration, yakni webpack.common.js, webpack.dev.js, dan webpack.prod.js.
+
+4. untuk mengatasi error async-await pakai ini
+npm install regenerator-runtime
+
+5. enkapsulasi opensource / library
+npm i --save lodash 
+
+6. http requise
+npm install axios
+
+7. npm i jquery
+8. npm install bootstrap@5.0.2
+9. npm i @babel/preset-env 
+ penyesuaian code java script untuk browser

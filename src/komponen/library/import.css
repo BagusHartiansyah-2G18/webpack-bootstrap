@@ -1,0 +1,38 @@
+.exBgImgC{
+  background-image: url('./file/clouds-2725520_960_720.jpg');
+  background-size: cover;
+}
+.exBgImgC100{
+  background-image: url('./file/clouds-2725520_960_720.jpg');
+  background-size: cover;
+  min-height: 100px;
+}
+.exBgImgC250{
+  background-image: url('./file/clouds-2725520_960_720.jpg');
+  background-size: cover;
+  min-height: 250px;
+}
+.mhight100{
+  min-height: 100px;
+}
+.mhight250{
+  min-height: 250px;
+}
+.exBgColorBlack10{
+  background-color: rgba(10, 10, 10, 0.1);
+}
+.exBgColorBlack20{
+  background-color: rgba(10, 10, 10, 0.2);
+}
+.exBgColorBlack40{
+  background-color: rgba(10, 10, 10, 0.4);
+}
+.exBgColorBlack60{
+  background-color: rgba(10, 10, 10, 0.6);
+}
+.exBgColorBlack80{
+  background-color: rgba(10, 10, 10, 0.8);
+}
+.pcard3{
+  padding:0px 12px 0px 0px !important;
+}
